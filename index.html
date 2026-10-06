@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmond Kipkirui Ngeno | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Desmond<span>.IT</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-btn nav-btn-about">About</a></li>
+                <li><a href="#education" class="nav-btn nav-btn-education">Education</a></li>
+                <li><a href="#skills" class="nav-btn nav-btn-skills">Skills</a></li>
+                <li><a href="#projects" class="nav-btn nav-btn-projects">Projects</a></li>
+                <li><a href="#contact" class="nav-btn nav-btn-contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-container">
+            <div class="profile-wrapper">
+                <img src="riodes.png" alt="Desmond Kipkirui Ngeno" class="profile-image">
+            </div>
+            <div class="hero-content">
+                <p class="hero-intro">Hello, I'm</p>
+                <h1 class="hero-name">Desmond Kipkirui Ngeno</h1>
+                <h2 class="hero-title">Machine Learning & Software Engineer | IT Specialist</h2>
+                <p class="hero-tagline">
+                    Bridging data intelligence, software architecture, and systems infrastructure to build production-ready, scalable solutions.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
+                    <a href="#contact" class="btn btn-secondary"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:riodeskip464@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+254716489169" title="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="https://github.com/Riodes7" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/riodes-kipkirui-00b726313" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/KipkiruiRiodes" target="_blank" rel="noopener noreferrer" class="social-btn">
+                        <i class="fab fa-x-twitter"></i> X
+                    </a>
+                    <a href="https://wa.me/254716489169" target="_blank" rel="noopener noreferrer" class="social-btn">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-card">
+                <p id="about-text">
+                    Loading bio...
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-brain"></i>
+                        <div>
+                            <h4>Applied ML</h4>
+                            <p>Supervised learning, predictive modeling & real-time inference</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <div>
+                            <h4>Software & APIs</h4>
+                            <p>Clean Python development, Streamlit UIs & robust backend tools</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-network-wired"></i>
+                        <div>
+                            <h4>Systems & Networks</h4>
+                            <p>Optical gateways, router setups & OS-level administration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Continuous Learning Section -->
+        <section id="education" class="section">
+            <div class="section-title">
+                <h2>Education & Training</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="education-timeline" id="education-container">
+                <!-- Dynamically loaded via data.json or fallback -->
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-title">
+                <h2>Technical Proficiencies</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid" id="skills-container">
+                <!-- Dynamic categories loaded via data.json -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <!-- Dynamic project cards loaded via data.json -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Let's Collaborate</h3>
+                    <p>Open for machine learning initiatives, software engineering roles, and technical consultancies.</p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:riodeskip464@gmail.com">riodeskip464@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:+254716489169">+254 716 489 169</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Eldoret / Nairobi, Kenya</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="example@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>Copyright &copy; 2026, Desmond Kipkirui Ngeno.All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
