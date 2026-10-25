@@ -25,6 +25,7 @@
   "skills": {
     "Machine Learning & Data Science": [
       "Python",
+      "SQL (PostgreSQL, SQLite)",
       "Scikit-Learn",
       "XGBoost",
       "Random Forest",
@@ -55,7 +56,14 @@
       "MAC Address Management",
       "DHCP/NAT Configuration",
       "Network Troubleshooting"
-    ]
+    ],
+    "Database Systems & Adminstration": [
+    "Database Management",
+    "SQL (PostgreSQL, SQLite)",
+    "Database Schema Design",
+    "Complex Queries & Joins",
+    "Data Preprocessing & Aggregation"
+],
   },
   "projects": [
     {
