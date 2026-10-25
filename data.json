@@ -19,12 +19,13 @@
       "degree": "Python(bootcamp) programming language | 100 days of code",
       "institution": "Udemy Online Course Platform",
       "period": "2026 - Present (Projected completion: December 2026",
-      "details": "Focusing on building skillsets to create project using python and provide real-world solutions"
+      "details": "Focusing on building skillsets to create project using python and provide real-world solutions."
     }
   ],
   "skills": {
     "Machine Learning & Data Science": [
       "Python",
+      "SQL (PostgreSQL, SQLite)",
       "Scikit-Learn",
       "XGBoost",
       "Random Forest",
@@ -55,7 +56,14 @@
       "MAC Address Management",
       "DHCP/NAT Configuration",
       "Network Troubleshooting"
-    ]
+    ],
+    "Database Systems & Adminstration": [
+    "Database Management",
+    "SQL (PostgreSQL, SQLite)",
+    "Database Schema Design",
+    "Complex Queries & Joins",
+    "Data Preprocessing & Aggregation"
+]
   },
   "projects": [
     {
